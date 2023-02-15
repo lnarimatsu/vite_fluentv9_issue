@@ -12,7 +12,7 @@ minimal reproduction required to report a bug/issue
     Shell: 5.0.17 - /bin/bash
 ```
 
-user@wsl2ubuntu:$ npm create vite@latest brand_new_project -- --template react-ts
+user@wsl2ubuntu:$ **npm create vite@latest brand_new_project -- --template react-ts**
 ```
 Scaffolding project in /home/localnar/github/brand_new_project...
 
@@ -22,8 +22,8 @@ Done. Now run:
   npm install
   npm run dev
 ```
-user@wsl2ubuntu:$ cd brand_new_project/
-user@wsl2ubuntu:brand_new_project$ npm install
+user@wsl2ubuntu:$ **cd brand_new_project/**
+user@wsl2ubuntu:brand_new_project$ **npm install**
 ```
 added 83 packages, and audited 84 packages in 23s
 
@@ -32,8 +32,7 @@ added 83 packages, and audited 84 packages in 23s
 
 found 0 vulnerabilities
 ```
-user@wsl2ubuntu:brand_new_project$
-user@wsl2ubuntu:brand_new_project$ npm install @fluentui/react-components
+user@wsl2ubuntu:brand_new_project$ **npm install @fluentui/react-components**
 ```
 npm WARN ERESOLVE overriding peer dependency
 npm WARN ERESOLVE overriding peer dependency
