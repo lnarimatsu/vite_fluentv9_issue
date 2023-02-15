@@ -13,7 +13,7 @@ minimal reproduction required to report a bug/issue
 ```
 
 user@wsl2ubuntu:~/github$ npm create vite@latest brand_new_project -- --template react-ts
-´´´
+```
 Scaffolding project in /home/localnar/github/brand_new_project...
 
 Done. Now run:
@@ -21,20 +21,20 @@ Done. Now run:
   cd brand_new_project
   npm install
   npm run dev
-´´´
+```
 user@wsl2ubuntu:~/github$ cd brand_new_project/
 user@wsl2ubuntu:~/github/brand_new_project$ npm install
-´´´
+```
 added 83 packages, and audited 84 packages in 23s
 
 8 packages are looking for funding
   run `npm fund` for details
 
 found 0 vulnerabilities
-´´´
+```
 user@wsl2ubuntu:~/github/brand_new_project$
 user@wsl2ubuntu:~/github/brand_new_project$ npm install @fluentui/react-components
-´´´
+```
 npm WARN ERESOLVE overriding peer dependency
 npm WARN ERESOLVE overriding peer dependency
 npm WARN ERESOLVE overriding peer dependency
@@ -46,12 +46,13 @@ added 63 packages, changed 1 package, and audited 147 packages in 26s
   run `npm fund` for details
 
 found 0 vulnerabilities
-´´´
+```
 user@wsl2ubuntu:~/github/brand_new_project$
 
 
 # logs:
-´´´
+
+```
 npm WARN ERESOLVE overriding peer dependency
 npm WARN While resolving: @fluentui/react-virtualizer@9.0.0-alpha.6
 npm WARN Found: @types/react@18.0.28
@@ -128,7 +129,7 @@ npm WARN   peer react-dom@">=16.8.0 <18.0.0" from @fluentui/react-virtualizer@9.
 npm WARN   node_modules/@fluentui/react-components/node_modules/@fluentui/react-virtualizer
 npm WARN     @fluentui/react-virtualizer@"9.0.0-alpha.6" from @fluentui/react-components@9.15.3
 npm WARN     node_modules/@fluentui/react-components
-´´´
+```
 
 
 package.json
